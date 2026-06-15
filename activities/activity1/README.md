@@ -324,7 +324,7 @@ local development environment using XAMPP and a local MySQL 8 instance.
 
 ## 7. Screencast URL
 
-> **[INSERT LOOM OR YOUTUBE URL HERE]**
+> **[\[Screencast Walkingthrough the application\]](https://www.loom.com/share/0f06c804caa34deab696a1ae9b6cae9c)**
 >
 > The screencast demonstrates the following locally-running functionality:
 > 1. Application loading at `http://localhost:8000`
