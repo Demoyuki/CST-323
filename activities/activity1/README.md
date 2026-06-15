@@ -33,7 +33,7 @@
 | **Database** | MySQL 8 | Required by activity; relational model well-suited to structured Bible verse and notes data |
 | **Logging** | Monolog (Laravel built-in) | Required PHP logging framework per BSCP spec; configured as a daily rotating log channel |
 | **Frontend** | Blade Templates + Bootstrap 5 | Blade is Laravel's native templating engine; Bootstrap 5 delivered via CDN per activity requirements |
-| **Cloud Host** | Microsoft Azure (Azure for Students) | Required by course; Web App + MySQL Flexible Server (deployment blocked - see Section 6) |
+| **Cloud Host** | Microsoft Azure (Azure for Students) | Required by course; Web App + MySQL Flexible Server (deployment blocked, see Section 6) |
 | **Version Control** | Git / GitHub | Required by activity; repository initialized during Laravel project creation |
 
 ---
@@ -214,7 +214,7 @@ flowchart TD
 
 | Item | Reason Pending |
 |---|---|
-| Azure cloud deployment | Blocked by subscription policy errors - see Section 6 |
+| Azure cloud deployment | Blocked by subscription policy errors (see Section 6) |
 | `.env` Azure database connection | Pending resolution of Azure deployment issue |
 | Inline note editing | Deferred to a future activity iteration |
 
